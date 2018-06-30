@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* fuente terminator */
+
+@font-face{
+    font-family: Terminator;
+    src: url("../fuentes/terminator\ real\ nfi.ttf");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/back_term.jpg");
+    background-size: cover;
+    
+    
+}
+
+@keyframes derecha{
+    0%{
+  
+        transform: rotate(0);
+    }
+   
+
+   100%{
+    transform: rotate(360deg);
+   }
+   
+   
+
+}
+
+
+.derecha {
+   animation-name: derecha;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   font-size: 1200px;
+}
+
+@keyframes izquierda{
+    0%{
+  
+        transform: rotate(0);
+    }
+   
+   100%{
+    transform: rotate(360deg);
+    
+   }
+
+
+}
+.derecha {
+    animation-name: derecha;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 250px;
+    color:#c4c5c491;
+ }
+ .derecha2 {
+    animation-name: derecha;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 100px;
+    color:#c4c5c491;
+ }
+  
+
+
+.izquierda1 {
+   animation-name: izquierda;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-direction: reverse;
+   font-size: 150px;
+   color:#c4c5c491;
+}
+
+.izquierda2 {
+    animation-name: izquierda;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    font-size: 110px;
+    color:#c4c5c491;
+ }
+
+ .izquierda3 {
+    animation-name: izquierda;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    font-size: 150px;
+    color:#c4c5c491;
+ }
+
+ul{
+    position: relative;
+    list-style: none;
+
+}
+
+.primero{
+     position: absolute;  
+     top:80px;
+     left:200px ;
+    
+}
+.segundo{
+    position: absolute;  
+    top:80px;
+    left:66px;
+}
+
+
+.tercero{
+    position: absolute;  
+    top:230px;
+    left:115px ;
+}
+.cuarto{
+    position: absolute;  
+    top:90px;
+    left:437px ;
+
+}
+.quinto{
+    position: absolute;  
+    top:235px;
+    left:450px ;
+
+}
+
+h1{
+    color:red;
+    position: absolute;
+    top:500px;
+    left:calc(50% - 500px);
+    font-family: Terminator;
+}
+
+
+
+
+
